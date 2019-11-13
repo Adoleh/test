@@ -5,6 +5,7 @@ class Product extends Component {
     return (
       <React.Fragment>
         <div>
+          <h1>Hello</h1>
           <span> {this.props.name}</span>
           <span> {this.props.price} QR </span>
           <br />
